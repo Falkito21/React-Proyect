@@ -12,7 +12,7 @@ import logo from '../../img/freecodecamp-logo.png';
 
 
 
-const Calculadora = () => {
+const Calculadora3 = () => {
 
     const [input, setInput] = useState('')
     //funcion que va concatenando los btn que voy seleccionando
@@ -91,4 +91,4 @@ const Calculadora = () => {
     )
 }
 
-export default Calculadora
+export default Calculadora3

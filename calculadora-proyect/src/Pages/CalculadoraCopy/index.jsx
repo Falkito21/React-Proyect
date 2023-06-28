@@ -12,7 +12,7 @@ import logo from '../../img/freecodecamp-logo.png';
 
 
 
-const Calculadora = () => {
+const Calculadora2 = () => {
 
     const [input, setInput] = useState('')
     //funcion que va concatenando los btn que voy seleccionando
@@ -50,7 +50,7 @@ const Calculadora = () => {
                         alt='Logo de freeCodeCamp'
                     />
                 </div>
-                <div className='calculadora-content'>
+                <div className='calculadora2-content'>
                     {/* componente Pantalla */}
                     <Pantalla input={input} />
                     <div className='fila'>
@@ -91,4 +91,4 @@ const Calculadora = () => {
     )
 }
 
-export default Calculadora
+export default Calculadora2
